@@ -1,0 +1,120 @@
+---
+title: "Parker Barnes"
+author: Parker Barnes
+date: "`r Sys.Date()`"
+output:
+  # github_document
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+    
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+# Aside
+
+<!-- ![Parker Barnes](images/profile.jpg) -->
+
+## Contact Info {#contact}
+
+-   <i class="fa fa-envelope"></i> [barnesparker1\@gmail.com](mailto:barnesparker1@gmail.com){.email}
+-   <i class="fa fa-linkedin-square"></i> [linkedin.com/parker-barnes](https://www.linkedin.com/in/parker-barnes/)
+-   <i class="fa fa-twitter"></i> [twitter.com/paRkeRuser1](https://twitter.com/paRkeRuser1)
+-   <i class="fa fa-github"></i> [github.com/barnesparker](https://github.com/barnesparker)
+-   <i class="fa fa-phone"></i> +1 801-473-3295
+
+## Skills {#skills}
+
+-   Specialized in R and the [tidyverse](https://www.tidyverse.org/)
+
+-   Machine learning with [tidymodels](https://www.tidymodels.org/)
+
+-   Databases: PostgreSQL/Redshift, T-SQL, [dbplyr](https://dbplyr.tidyverse.org/)
+
+-   Visualization: ggplot2, Shiny, Power BI
+
+-   Analytics Pipeline Development with [targets](https://docs.ropensci.org/targets/)
+
+-   MLOps with Github, Docker, AWS
+
+-   Other Skills: R package development, Python (pandas, scikit-learn), Power BI, Excel
+
+## Disclaimer {#disclaimer}
+
+This resume was made with [pagedown](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+# Main
+
+## Parker Barnes {#title}
+
+## Education {data-icon="graduation-cap" data-concise="true"}
+
+### University of Utah, Eccles School of Business
+
+Master of Science, Business Analytics
+
+Salt Lake City, UT
+
+2021
+
+3.95 GPA. Academic Scholarship, Lean Six Sigma Green Belt Certification
+
+Capstone Project: ML tool predicting customer conversion in booking professional movers. Embedded in a custom R Shiny application
+
+### Brigham Young University
+
+BS, Statistics, emphasis in Data Science.
+
+Provo, UT
+
+2017
+
+Double Minor in CS & Math. 3.8 GPA. Academic Scholarship
+
+## Professional Experience {data-icon="suitcase"}
+
+### Data Scientist
+
+Nursa™️
+
+Murray, UT
+
+Present - May, 2022
+
+::: concise
+-   Built a data pipeline that clusters facility networks based on clinician labor patterns. Trains random forest model to predict job request rates and assigns price adjustments accordingly.
+-   Developed internal R package that interfaces with company's databases.
+-   Automated monthly Stripe finance statements in RMarkdown and built friendly UI in R Shiny. Deployed using Docker and AWS
+:::
+
+### Data Scientist
+
+PILYTIX
+
+Austin, TX
+
+May, 2022 - Dec, 2022
+
+::: concise
+-   Remodeled a client's A.I. pipeline by revamping SQL scripts to more accurately capture useful variables.
+-   Explored and visualized variables to assess their predictability.
+-   Trained and evaluated bayesian hierarchical models on selected variables to effectively predict "wins" and "losses" among sales opportunities
+-   Contributed to internal R packages and analysis framework to facilitate more efficient and standardized analyses across clients
+:::
+
+### Data Analyst
+
+International Academies of Emergency Dispatch (IAED)
+
+Salt Lake City, UT
+
+Dec, 2022 - May, 2021
+
+::: concise
+-   Processed data requests for various stakeholders in the company by querying databases and visualizing in Power BI
+-   Re-engineered automated data pipelines for company public-facing dashboards. Reduced memory usage and computation by 90% by applying STAR Schema principles.
+-   Automated agency data monitoring process using a combination of SQL, R, and 2 project management APIs
+:::
