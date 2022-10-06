@@ -58,7 +58,7 @@ Master of Science, Business Analytics
 
 Salt Lake City, UT
 
-2021
+2022
 
 3.95 GPA. Academic Scholarship, Lean Six Sigma Green Belt Certification
 
@@ -70,7 +70,7 @@ BS, Statistics, emphasis in Data Science.
 
 Provo, UT
 
-2017
+2020
 
 Double Minor in CS & Math. 3.8 GPA. Academic Scholarship
 
@@ -85,9 +85,10 @@ Murray, UT
 Present - May, 2022
 
 ::: concise
--   Built a data pipeline that clusters facility networks based on clinician labor patterns. Trains random forest model to predict job request rates and assigns price adjustments accordingly.
+-   Built a data pipeline that clusters facility networks based on clinician labor patterns, used to establish facility "metros".
 -   Developed internal R package that interfaces with company's databases.
--   Automated monthly Stripe finance statements in RMarkdown and built friendly UI in R Shiny. Deployed using Docker and AWS
+-   Automated monthly Stripe finance statements with RMarkdown; created tool in shiny to generate them interactively
+-   Created an interactive Shiny dashboard that maps facilities and clinicians and plots their metrics.
 :::
 
 ### Data Scientist
@@ -96,7 +97,7 @@ PILYTIX
 
 Austin, TX
 
-May, 2022 - Dec, 2022
+May, 2022 - Dec, 2021
 
 ::: concise
 -   Remodeled a client's A.I. pipeline by revamping SQL scripts to more accurately capture useful variables.
@@ -111,7 +112,7 @@ International Academies of Emergency Dispatch (IAED)
 
 Salt Lake City, UT
 
-Dec, 2022 - May, 2021
+Dec, 2021 - May, 2021
 
 ::: concise
 -   Processed data requests for various stakeholders in the company by querying databases and visualizing in Power BI
