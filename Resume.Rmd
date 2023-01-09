@@ -5,12 +5,17 @@ date: "`r Sys.Date()`"
 output:
   # github_document
   pagedown::html_resume:
+    css:
+      - resume
+      - override.css
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: false
     
 # uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
 ---
+
+
 
 # Aside
 
@@ -28,17 +33,19 @@ knit: pagedown::chrome_print
 
 -   Specialized in R and the [tidyverse](https://www.tidyverse.org/)
 
--   Machine learning with [tidymodels](https://www.tidymodels.org/)
+-   ML: [tidymodels](https://www.tidymodels.org/), H2O, DALEX
 
--   Databases: PostgreSQL/Redshift, T-SQL, [dbplyr](https://dbplyr.tidyverse.org/)
+-   SQL: PostgreSQL, Redshift, T-SQL, [dbplyr](https://dbplyr.tidyverse.org/)
 
--   Visualization: ggplot2, Shiny, Power BI
+-   Visualization: ggplot2, echarts4r, Power BI
 
--   Analytics Pipeline Development with [targets](https://docs.ropensci.org/targets/)
+-   Reporting: RMarkdown/Quarto, Shiny (rhino)
 
--   MLOps with Github, Docker, AWS
+-   Pipelines: [targets](https://docs.ropensci.org/targets/)
 
--   Other Skills: R package development, Python (pandas, scikit-learn), Power BI, Excel
+-   MLOps: Github, Docker, AWS, plumber, vetiver
+
+-   Other Skills: package development, Python (pandas, scikit-learn), Excel
 
 ## Disclaimer {#disclaimer}
 
@@ -60,7 +67,7 @@ Salt Lake City, UT
 
 2022
 
-3.95 GPA. Academic Scholarship, Lean Six Sigma Green Belt Certification
+3.95/4.0 GPA. Academic Scholarship, Lean Six Sigma Green Belt Certification
 
 Capstone Project: ML tool predicting customer conversion in booking professional movers. Embedded in a custom R Shiny application
 
@@ -72,7 +79,7 @@ Provo, UT
 
 2020
 
-Double Minor in CS & Math. 3.8 GPA. Academic Scholarship
+Double Minor in CS & Math. 3.8/4.0 GPA. Academic Scholarship
 
 ## Professional Experience {data-icon="suitcase"}
 
@@ -85,10 +92,10 @@ Murray, UT
 Present - May, 2022
 
 ::: concise
--   Built a data pipeline that clusters facility networks based on clinician labor patterns, used to establish facility "metros".
--   Developed internal R package that interfaces with company's databases.
--   Automated monthly Stripe finance statements with RMarkdown; created tool in shiny to generate them interactively
--   Created an interactive Shiny dashboard that maps facilities and clinicians and plots their metrics.
+-   Trained and deployed a machine learning model that predicts whether a job will be requested on our app. Deployed as an API using Docker and AWS
+-   Developed internal R package that interfaces with company's databases
+-   Automated facility finance statements with RMarkdown and Shiny.
+-   Created an interactive Shiny dashboard that maps facilities and users.
 :::
 
 ### Data Scientist
@@ -119,3 +126,4 @@ Dec, 2021 - May, 2021
 -   Re-engineered automated data pipelines for company public-facing dashboards. Reduced memory usage and computation by 90% by applying STAR Schema principles.
 -   Automated agency data monitoring process using a combination of SQL, R, and 2 project management APIs
 :::
+

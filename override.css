@@ -1,0 +1,40 @@
+* {
+  /* Override default margins*/
+  --pagedjs-margin-right: 0in;
+  --pagedjs-margin-left: 0in;
+  --pagedjs-margin-top: 0.2in;
+  --pagedjs-margin-bottom: 0.2in;
+
+
+  --page-width: 8.5in;
+  --margin-right: 0in;
+  --margin-left: 0in;
+  --content-width: calc(var(--page-width) - var(--margin-right) - var(--margin-left));
+  --root-font-size: 12pt;
+  --sidebar-width: 15rem;
+  --sidebar-background-color: #f2f2f2;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+
+  --sidebar-horizontal-padding: 0.2in;
+
+  /* XXX: using px for very good precision control */
+  --decorator-outer-offset-top: 10px;
+  --decorator-outer-offset-left: -5.5px;
+  --decorator-border-width: 1px;
+  --decorator-outer-dim: 9px;
+  --decorator-border: 1px solid #ccc;
+
+  --row-blocks-padding-top: 0.5rem;
+  --date-block-width: 0.7in;
+
+  --main-blocks-title-icon-offset-left: calc(-17pt - 0.25 * var(--root-font-size));
+
+  --viewer-background-color: #dcdcdc;
+  --viewer-pages-spacing: 12px;
+  --viewer-shadow-color: #313131;
+
+  font-size: .8rem;
+
+} 
+  
