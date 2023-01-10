@@ -93,6 +93,7 @@ Present - May, 2022
 
 ::: concise
 -   Trained and deployed a machine learning model that predicts whether a job will be requested on our app. Deployed as an API using Docker and AWS
+-   Trained a personalized recommendation engine to optimize users' job feeds. Embedded in a shiny app to demo for stakeholders and will eventually be implemented in the product
 -   Developed internal R package that interfaces with company's databases
 -   Automated facility finance statements with RMarkdown and Shiny.
 -   Created an interactive Shiny dashboard that maps facilities and users.
